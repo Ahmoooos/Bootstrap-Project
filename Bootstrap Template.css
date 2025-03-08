@@ -1,0 +1,725 @@
+*{
+    box-sizing: border-box;
+}
+.header-top{
+    background-color: #F5FBFF;
+    
+}
+#icon1,#icon2,#icon3{
+    color: #c7c7c7;
+}
+#icon1:hover,#icon2:hover,#icon3:hover{
+    color: #5DB2FF;
+}
+#navBtn{
+    padding: 12px 20px;
+    background-color: #009DFF;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+}
+#navBtn:hover{
+    background-color: #fff;
+    color: #009DFF;
+    border: 1px solid #009DFF;
+}
+#sticky-header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 3;
+}
+.section-1{
+    height: 700px;
+    background-image: url(./resources/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media (max-width: 767px) {
+    .section-1{
+        height: 420px;
+    }
+}
+#mobile-nav{
+    background-color:#4c4c4c;
+    padding: 5px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); 
+}
+.slider_text h3{
+    color: #1F1F1F;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.slider_text h3 span {
+    font-weight: 700;
+}
+.slider_text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .slider_text h3{
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    .slider_text p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider_text h3 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .slider_text h3 {
+        font-size: 33px;
+        letter-spacing: 3px;
+    }
+    .slider_text p{
+        font-size: 16px;
+    }
+}
+.boxed-btn{
+    background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    outline: medium none;
+}
+.boxed-btn:hover{
+    background: #fff;
+    color: #009DFF !important;
+    border: 1px solid #009DFF;
+}
+.service-area{
+    background: #83C4FF;
+}
+.single-service{
+    padding: 40px 30px;
+}
+.single-service .icon{
+    margin-bottom: 10px;
+}
+.single-service .icon img{
+    width: 15%;
+}
+.single-service h3{
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-service h3 {
+        font-size: 20px;
+    }
+}
+.single-service p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+.serviceBtn{
+    display: inline-block;
+    padding: 9px 24px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+    background-color: transparent;
+}
+.serviceBtn:hover{
+    background: #fff;
+    color: #009DFF !important;
+    border: 1px solid transparent;
+}
+.service-area .col-xl-4:nth-child(2) .single-service {
+    background: #5DB2FF;
+}
+.welcome-docmed-area {
+    padding-top: 120px;
+    padding-bottom: 220px;
+}
+@media (max-width: 767px) {
+    .welcome-docmed-area {
+        padding-bottom: 100px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-docmed-area {
+        padding-bottom: 100px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .welcome-docmed-area {
+        padding-bottom: 100px;
+    }
+}
+.welcome-thumb{
+    position: relative;
+}
+.thumb1{
+    left: 0;
+}
+.thumb1 img{
+    width: 60%;
+}
+@media (max-width: 767px) {
+    .thumb1 img {
+        width: 100%;
+    }
+}
+.thumb2{
+    position: absolute;
+    bottom: -94px;
+    right: -37px;
+}
+@media (max-width: 767px) {
+    .thumb2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .thumb2 {
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+    }
+}
+.thumb2 img{
+    width: 89%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .thumb2 img {
+        width: 100%;
+    }
+}
+.welcome-docmed-info h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 9px;
+}
+.welcome-docmed-info h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 50px;
+    background: #5DB2FF;
+    line-height: 1.2em;
+}
+.welcome-docmed-info h3{
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    .welcome-docmed-info h3 {
+        font-size: 30px;
+    }
+}
+.welcome-docmed-info p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+.welcome-docmed-info ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.welcome-docmed-info ul li{
+    color: #727272;
+    font-size: 16px;
+    line-height: 28px;
+    list-style: none;
+}
+.welcome-docmed-info ul li img{
+    width: 16px;
+    margin-right: 10px;
+}
+.docmed-info-btn{
+    color: #5DB2FF !important;
+    display: inline-block;
+    padding: 9px 24px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #5DB2FF;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+    outline: medium none;
+    text-decoration: none;
+}
+.docmed-info-btn:hover{
+    background: #5DB2FF;
+    color: #fff !important;
+    border: 1px solid transparent;
+}
+.departments-area{
+    background: #F5FBFF;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.departments-title h3{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #1F1F1F;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 15px;
+}
+@media (max-width: 767px) {
+    .departments-title h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .departments-title h3 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+}
+.departments-title h3::before {
+    position: absolute;
+    left: 0;
+    background: #5DB2FF;
+    height: 2px;
+    width: 50px;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.departments-title p {
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+.card-content{
+    padding: 22px 30px 24px 30px;
+}
+.card-content h3 a{
+    font-size: 22px;
+    color: #1F1F1F;
+    line-height: 33px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.card-content h3 a:hover{
+    color: #5DB2FF;
+}
+.card-content p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.card-content a.learn-more{
+    color: #5DB2FF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.card-content a.learn-more:hover{
+    text-decoration: underline;
+}
+
+.card-img-div{
+    overflow: hidden;
+}
+.card-img-top {
+    transform: scale(1);
+    transition: 0.3s ;
+    width: 100%;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.2);
+}
+
+.blackScreen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 180px 0;
+    
+}
+.quoteImg{
+    width: 40px;
+}
+.sliderText{
+    color: #fff;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 47px;
+}
+.sliderInfo div h4{
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    padding-top: 21px;
+}
+.sliderInfo div h4::before{
+    position: absolute;
+    background: #fff;
+    width: 60px;
+    height: 2px;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+.business-expert-area{
+    padding-bottom: 100px;
+}
+@media (max-width: 767px) {
+    .business-expert-area {
+        padding-bottom: 50px;
+    }
+}
+.business-tabs-area{
+    background: #F5FBFF;
+}
+.business-tabs-area div div ul .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1F1F1F;
+    padding: 35px 0px 35px 40px;
+    transition: 0.3s;
+}
+.business-tabs-area div div ul .nav-item .nav-link.active{
+    background: #fff;
+}
+
+@media (max-width: 767px) {
+    .business-tabs-area div div ul .nav-item .nav-link {
+        padding: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .business-tabs-area div div ul .nav-item .nav-link {
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+.border-bottom{
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.icon div{
+    background: #5DB2FF;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-info h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F1F1F;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    line-height: 1.2em;
+}
+.business-info p{
+    color: #727272;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.expert_doctors_area{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+@media (max-width: 767px) {
+    .expert_doctors_area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+.mb-55{
+    margin-bottom: 55px;
+}
+.doctors-title h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1F1F1F;
+    line-height: 1.2em;
+}
+.expert_doctors_area .single_expert .expert_thumb {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+.expert_doctors_area .single_expert .expert_thumb img {
+    transition: 0.3s;
+    transform: scale(1);
+    width: 100%;
+}
+.expert_doctors_area .single_expert .experts_name {
+    transition: 0.3s;
+    background: #F5FBFF;
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+.expert_doctors_area .single_expert .experts_name h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1px;
+    
+}
+.expert_doctors_area .single_expert .experts_name span {
+    color: #919191;
+    font-size: 13px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.expert_doctors_area .single_expert:hover .expert_thumb img{
+    transform: scale(1.2);
+}
+.expert_doctors_area .single_expert:hover .experts_name{
+    background: #5cb0ff;
+    color: white;
+}
+.expert_doctors_area .single_expert:hover .experts_name span{
+    
+    color: white;
+}
+.owl-nav div{
+    position: absolute;
+    background: transparent;
+    height: 40px;
+    text-align: center;
+    transform: translateY(0%);
+    width: 40px;
+    color: #919191;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 40px;
+    border: 1px solid #EEEEEE;
+    left: auto;
+    top: -100px;
+    right: 55px;
+}
+.owl-nav div:hover{
+    background: #009dff;
+    color: white;
+}
+
+.owl-nav div.owl-next {
+    left: auto;
+    right: 0;
+}
+.owl-nav div.owl-prev i {
+    position: relative;
+    top: 0px;
+}
+
+
+.single_emergency{
+    padding: 91px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.emergency_bg_1{
+    background-image: url(./resources/emergency-1.png);
+}
+.emergency_bg_2{
+    background-image: url(./resources/emergency-2.png);
+}
+.overlay_skyblue{
+    position: relative;
+    z-index: 0;
+}
+.overlay_skyblue::before{
+    position: absolute;
+    content: "";
+    background-color: #5DB2FF;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+@media (max-width: 767px) {
+    .single_emergency {
+        padding: 40px;
+        display: block !important;
+    }
+}
+.single_emergency .info {
+    margin-right: 30px;
+}
+.single_emergency .info h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.2em;
+}
+.single_emergency .info p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 28px;
+}
+.info-btn a{
+    border-radius: 30px;
+}
+.footer .footer-top{
+    padding-top: 145px;
+    padding-bottom: 129px;
+    background: #1F1F1F;
+}
+@media (max-width: 767px) {
+    .footer .footer-top {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+.footer_logo{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+    .footer_logo {
+        margin-bottom: 20px;
+    }
+}
+.footer_widget p{
+    color: #C7C7C7;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 13px;
+    font-family: "Poppins", sans-serif;
+}
+.footer_widget .social-links{
+    margin-top: 47px;
+}
+@media (max-width: 767px) {
+    .footer_widget .social-links {
+        margin-top: 30px;
+    }
+}
+.social-links ul li a{
+    font-size: 16px;
+    color: #BABABA;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background: #707070;
+    border-radius: 4px;
+    line-height: 50px !important;
+    margin-right: 7px;
+}
+.social-links ul li a:hover {
+    color: #fff !important;
+}
+.footer_widget .footer_title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    line-height: 1.2em;
+    font-family: "Poppins", sans-serif;
+}
+@media (max-width: 767px) {
+    .footer_widget .footer_title {
+        margin-bottom: 20px;
+    }
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer_widget ul li a {
+    font-size: 16px;
+    color: #BABABA;
+    line-height: 42px;
+}
+.footer_widget ul li a:hover {
+    color: #5DB2FF;
+}
