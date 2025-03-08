@@ -21,10 +21,12 @@ This project is a responsive Bootstrap-based template designed for a modern webs
 ## Installation
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/repository-name.git
+   git clone [https://github.com/your-username/repository-name.git](https://ahmoooos.github.io/Bootstrap-Project/)
    ```
 2. Open the `index.html` file in a browser.
 3. Ensure all dependencies (Bootstrap, Font Awesome, and Owl Carousel) are correctly linked in the HTML file.
+
+   خق
 
 ## Project Structure
 ```
